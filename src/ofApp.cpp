@@ -329,18 +329,18 @@ void ofApp::keyPressed(int key){
     
     cout << "Current epoch time is: " << curTime << endl;
     
-//    if(key == 'r'){
-//        BLUE = true;
-//        
-//    }
+    if(key == 'r'){
+        BLUE = true;
+        
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-//    if(key == 'r'){
-//        BLUE = false;
-//        
-//    }
+    if(key == 'r'){
+        BLUE = false;
+        
+    }
 }
 
 //--------------------------------------------------------------
@@ -355,12 +355,12 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-
+    YELLOW = true;
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+    YELLOW = false;
 }
 
 //--------------------------------------------------------------
