@@ -153,7 +153,7 @@ void ofApp::update(){
            
         }
         
-        if(ofGetMousePressed()){
+        if(YELLOW == true){
 
             myRainForest.growth();
         }
@@ -177,7 +177,7 @@ void ofApp::update(){
             }
         }
         
-        if(ofGetMousePressed()) {
+        if(YELLOW == true) {
             myValley.growth();
         }
     }
@@ -188,7 +188,7 @@ void ofApp::update(){
         landscape.load("image/desert.jpg");
         Info.load("image/desert02.png");
 
-        if(ofGetMousePressed()){
+        if(YELLOW == true){
           myDesert.growth();
         }
         
@@ -207,7 +207,7 @@ void ofApp::draw(){
     landscape.draw(0, 0, ofGetWidth(), ofGetHeight());
     Info.draw(0, 0, ofGetWidth(), ofGetHeight());
     
-    if(ofGetMousePressed()){
+    if(YELLOW == true){
         Sunshine.draw(0,0,ofGetWidth(), ofGetHeight()/*,100+((int)(counter * 5.0f) % 255)*/);
     }
 
@@ -329,18 +329,18 @@ void ofApp::keyPressed(int key){
     
     cout << "Current epoch time is: " << curTime << endl;
     
-    if(key == 'r'){
-        BLUE = true;
-        
-    }
+//    if(key == 'r'){
+//        BLUE = true;
+//        
+//    }
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-    if(key == 'r'){
-        BLUE = false;
-        
-    }
+//    if(key == 'r'){
+//        BLUE = false;
+//        
+//    }
 }
 
 //--------------------------------------------------------------

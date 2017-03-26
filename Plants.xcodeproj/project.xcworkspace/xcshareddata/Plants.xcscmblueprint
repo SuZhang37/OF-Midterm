@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "63DE8FD873B1803FE32B184F46F85FA88F70F002",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "63DE8FD873B1803FE32B184F46F85FA88F70F002" : 9223372036854775807,
+    "7E1775FFDCBC8B0197DF349B3BFA6CFC2CB3313F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D14CD6CA-241B-4206-B84D-81659A25BAD7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "63DE8FD873B1803FE32B184F46F85FA88F70F002" : "Plants\/",
+    "7E1775FFDCBC8B0197DF349B3BFA6CFC2CB3313F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Plants",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Plants.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SuZhang37\/OF-Midterm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63DE8FD873B1803FE32B184F46F85FA88F70F002"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SuZhang37\/OF.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E1775FFDCBC8B0197DF349B3BFA6CFC2CB3313F"
+    }
+  ]
+}
